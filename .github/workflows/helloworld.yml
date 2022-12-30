@@ -1,8 +1,8 @@
-name: GitHub Actions Demo
+name: "hello-world"
 on: [push]
 jobs:
   sample:
     name: hello world job
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - run: echo "hello world"
